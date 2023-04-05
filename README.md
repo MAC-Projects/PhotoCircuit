@@ -8,7 +8,7 @@ To accomplish this objective, it makes use of:
 
 The "PhotoCircuit" directory in this repository can be imported into Android Studio and run directly.
 
-We uploaded the customized dataset we used [on Kaggle](https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements) and is based on [this pre-existing one](https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components).
+We uploaded the customized dataset we used [on Kaggle](https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements); it is based on a few modifications to [this pre-existing one](https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components).
 
 The model can be trained using the IPython Notebook at [training.ipynb](/training.ipynb).
 

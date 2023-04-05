@@ -8,13 +8,13 @@ To accomplish this objective, it makes use of:
 
 The "PhotoCircuit" directory in this repository can be imported into Android Studio and run directly.
 
-The dataset we used can be found [https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements](on Kaggle) and is based on [https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components](this pre-existing one).
+The dataset we used can be found [on Kaggle](https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements) and is based on [this pre-existing one](https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components).
 
-The model can be trained using the IPython Notebook at [/training.ipynb].
+The model can be trained using the IPython Notebook at [training.ipynb](/training.ipynb).
 
-A Python version of the circuit element detection algorithm can be found at [/elem_detector.ipynb].
+A Python version of the circuit element detection algorithm can be found at [elem_detector.ipynb](/elem_detector.ipynb).
 
-A more thorough explanation of the inner workings of the application (in Italian) can be found at [/Relazione.pdf].
+A more thorough explanation of the inner workings of the application (in Italian) can be found at [Relazione.pdf](/Relazione.pdf).
 
 ## Sample
 

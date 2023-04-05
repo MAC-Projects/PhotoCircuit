@@ -8,7 +8,7 @@ To accomplish this objective, it makes use of:
 
 The "PhotoCircuit" directory in this repository can be imported into Android Studio and run directly.
 
-The dataset we used can be found [on Kaggle](https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements) and is based on [this pre-existing one](https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components).
+We uploaded the customized dataset we used [on Kaggle](https://www.kaggle.com/datasets/altermetax/hand-drawn-circuit-elements) and is based on [this pre-existing one](https://www.kaggle.com/datasets/moodrammer/handdrawn-circuit-schematic-components).
 
 The model can be trained using the IPython Notebook at [training.ipynb](/training.ipynb).
 
@@ -30,7 +30,7 @@ then, after several additional steps, it detects the segments that connect the c
 
 ![Detected segments](/pictures/segments.png)
 
-It uses the information obtained so far to generate the following TeX code:
+It uses the information obtained so far, together with the CNN's classification of the circuit elements, to generate the following TeX code:
 
 ```tex
 \begin{circuitikz}[american,x=0.01cm,y=0.01cm]

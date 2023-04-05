@@ -1,6 +1,6 @@
 # PhotoCircuit
 
-PhotoCircuit is an Android application dedicated to the recognition of photographs of simple hand-drawn circuit schematics and the generation of the corresponding [CircuiTikZ](https://ctan.org/pkg/circuitikz?lang=en) code.
+PhotoCircuit is an Android application dedicated to the recognition of photographs of simple hand-drawn circuit schematics and the generation of the corresponding [CircuiTikZ](https://ctan.org/pkg/circuitikz?lang=en) code, which is then automatically uploaded to [TermBin](https://termbin.com/).
 
 To accomplish this objective, it makes use of:
 * Custom computer vision algorithms implemented through OpenCV, meant to identify circuit element positions and the segments that connect them;

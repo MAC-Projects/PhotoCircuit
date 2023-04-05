@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideOverlay"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="vertical"
+    tools:context=".ui.ThirdFragment">
+
+    <TextView
+        android:id="@+id/urlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10pt"
+        android:text="@string/url_pending" />
+
+    <EditText
+        android:id="@+id/codeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5pt"
+        android:autofillHints="name"
+        android:editable="false"
+        android:hint="@android:string/unknownName"
+        android:inputType="none"
+        android:scrollbars="horizontal|vertical"
+        android:selectAllOnFocus="true"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+</LinearLayout>

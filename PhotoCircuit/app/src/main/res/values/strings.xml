@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoCircuit</string>
+    <string name="preview_image_description">Picture</string>
+    <string name="take_picture_button_text">Take picture</string>
+    <string name="focus_button_text">Focus</string>
+    <string name="show_code_button_text">Show code</string>
+    <string name="url_pending">URL pending…</string>
+    <string name="switch_to_landscape">Switch to landscape</string>
+    <string name="switch_to_portrait">Switch to portrait</string>
+</resources>
